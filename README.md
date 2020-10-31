@@ -1,11 +1,11 @@
 # PaintJS
 
-Painting Board made with VanillaJS
+VanillaJS로 만든 페인팅 App
 
-## Features
+## 특징
 
-- Paint
-- Change brush size
-- Change color
-- Fill canvas
-- Save images
+- 그리기 모드
+- 브러쉬 굵기 조절
+- 색 변경
+- 채우기 기능
+- 그림 저장
