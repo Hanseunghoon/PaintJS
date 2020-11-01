@@ -3,6 +3,10 @@ const canvas = document.getElementById("jsCanvas");
 // 마우스가 클릭되면 true가됨
 let painting = true;
 
+function stopPainting(){
+  painting = false;
+}
+
 // 컨버스 안에 있는 움직이는 마우스의 좌표를 출력
 function onMouseMove(event){
   const x = event.offsetX;
@@ -16,11 +20,11 @@ function onMouseDown(event){
 }
 
 function onMouseUp(event){
-  painting = false;
+  stopPainting();
 }
 
 function onMouseLeave(event){
-  painting = false;
+  
 }
 
 if (canvas) {
@@ -31,5 +35,5 @@ if (canvas) {
   // 마우스를 클릭했을 때 (깍)
   canvas.addEventListener("mouseup", onMouseUp)
   // 마우스가 캔버스를 벗어났을 때
-  canvas.addEventListener("mouseleave", onMouseLeave)
+  canvas.addEventListener("mouseleave", stopPainting)
 }
