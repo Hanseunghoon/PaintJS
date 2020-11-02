@@ -11,3 +11,6 @@ VanillaJS로 만든 페인팅 App
 - 그림 저장
 
 [PaintJS 이용해 보기!](https://hanseunghoon.github.io/PaintJS/)
+
+## 참고
+[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
