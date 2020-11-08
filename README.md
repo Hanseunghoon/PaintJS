@@ -1,6 +1,7 @@
 # [PaintJS](https://hanseunghoon.github.io/PaintJS/)
 
 VanillaJS로 만든 페인팅 App
+
 그리고 싶은 대로 그리고 저장할 수 있습니다.
 
 ## 기술
